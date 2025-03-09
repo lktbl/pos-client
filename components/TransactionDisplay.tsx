@@ -90,6 +90,7 @@ export default function TransactionDisplay({ transactionId }: TransactionDisplay
           setError('Failed to load integration SDK');
         });
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isMounted]);
 
   useEffect(() => {
